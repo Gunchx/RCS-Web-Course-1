@@ -2,10 +2,82 @@
 <html lang="en">
     <head>
         <meta charset="UTF=8">
-
+        <!<meta name="viewort" content="width=device-width, initial-screeen">
+        <Title>Document</Title>
     </head>
     <body>
         <h1>Hello World</h1>
-        
-    </body>
+        <table border="7">
+            <tr>
+                <td>1a</td>
+                <td colspan="2">1b</td>
+                <!-- <td>1c</td> -->
+                <td>1d</td>
+                <td>1e</td>
+            </tr>
+            <tr>
+                <td>2a</td>
+                <td>2b</td>
+                <td>2c</td>
+                <td>2d</td>
+                <td>2e</td>
+            </tr>
+            <tr>
+                <td>3a</td>
+                <td>3b</td>
+                <td rowspan="2">3c</td>
+                <td>3d</td>
+                <td>3e</td>
+            </tr>
+            <tr>
+                <td>4a</td>
+                <td>4b</td>
+                <!-- <td>4c</td> -->
+                <td>4d</td>
+                <td>4e</td>
+            </tr>
+        </table>
+        <body>
+            <form>
+            <!-- <form method="POST"> neraadiis password un username ieksh google-->
+                <div>
+                    <label for="super-username">Username:</label><br>
+                    <input type="text" id="super-username" name="username">
+                </div>
+                <div>
+                    <label for="super-username">Password:</label><br>
+                    <!-- <input type="text" id="super-password" name="password"> -->
+                    <input type="password" id="super-password" name="password">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="send the date!">
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox1"><label for="checkbox1">checkbox1</label><br>
+                    <input type="checkbox"><label>checkbox2</label><br>
+                    <input type="checkbox"><label>checkbox3</label><br>
+                    <input type="checkbox"><label>checkbox4</label><br>
+                </div>
+                <div>
+                        <input type="radio" name="radio1"><label>Radio1</label><br>
+                        <input type="radio" name="radio1"><label>Radio1</label><br>                        
+                        <input type="radio" name="radio2"><label>Radio2</label><br>
+                        <input type="radio" name="radio3"><label>Radio3</label><br>
+                        <input type="radio" name="radio4"><label>Radio4</label><br>
+                </div>
+                <div>
+                    <select multiple>
+                        <option>Option1</option>
+                        <option>Option2</option>
+                        <option>Option3</option>
+                        <option>Option4</option>
+                        <option>Option5</option>
+                        
+                    </select>
+                </div>
+
+            </form>
+        </body>
+        </body>
 </html>
